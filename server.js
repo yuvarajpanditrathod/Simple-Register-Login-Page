@@ -6,6 +6,7 @@ const path = require("path");
 
 const app = express();
 const PORT = 3000;
+const cors = require("cors");
 
 const cors = require('cors');
 app.use(cors({
@@ -32,6 +33,13 @@ app.use(session({
     resave: false,
     saveUninitialized: true
 }));
+
+app.use(cors({
+    origin: 'https://simple-login-register-page.vercel.app',
+    credentials: true
+  }));
+
+  app.use(cors());
 
 // Routes
 app.get("/", (req, res) => res.redirect("/login"));
