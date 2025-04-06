@@ -8,13 +8,6 @@ const app = express();
 const PORT = 3000;
 const cors = require("cors");
 
-const cors = require('cors');
-app.use(cors({
-  origin: 'https://your-frontend.vercel.app',
-  credentials: true
-}));
-
-
 // SQLite DB
 const db = new sqlite3.Database("./database.sqlite");
 db.run(`CREATE TABLE IF NOT EXISTS users (
