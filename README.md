@@ -36,7 +36,7 @@ This is a **fully functional user authentication system** built using **Node.js*
 
 | Register Page | Login Page | Home Page |
 |---------------|------------|-----------|
-| ![Register](screenshots/register.png) | ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
+| ![Register](register.png) | ![Login](login-page.png) | ![Home](home.png) |
 
 ---
 
@@ -65,5 +65,4 @@ cd Simple-Register-Login-Page
 1. npm install
 2. node server.js
 
-Email: jevepij832@dmener.com
-Password: 111
+live demo url = https://simple-register-login-page.onrender.com/login
