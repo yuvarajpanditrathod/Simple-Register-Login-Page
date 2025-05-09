@@ -34,10 +34,16 @@ This is a **fully functional user authentication system** built using **Node.js*
 
 ## 🖥️ Screenshots
 
-| Register Page | Login Page | Home Page |
-|---------------|------------|-----------|
-| ![Register](register.png) | ![Login](login-page.png) | ![Home](home.png) |
+| Register Page |
+|---------------|
+| ![Register](register.png) |
+ Login Page | 
+|------------|
+| ![Login](login-page.png) |
 
+| Home Page |
+| ![Home](home.png) |
+| -----------|
 ---
 
 ## 🛠️ Tech Stack
