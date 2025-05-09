@@ -42,8 +42,9 @@ This is a **fully functional user authentication system** built using **Node.js*
 | ![Login](login-page.png) |
 
 | Home Page |
-| ![Home](home.png) |
 | -----------|
+| ![Home](home.png) |
+
 ---
 
 ## 🛠️ Tech Stack
@@ -70,5 +71,6 @@ cd Simple-Register-Login-Page
 
 1. npm install
 2. node server.js
-
-live demo url = https://simple-register-login-page.onrender.com/login
+```
+### 1. live demo url
+ https://simple-register-login-page.onrender.com/login
